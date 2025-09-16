@@ -1,18 +1,17 @@
 {
-  "name": "tcp-proxy",
+  "name": "mt4-tcp-proxy",
   "version": "1.0.0",
   "description": "TCP Proxy for port 15743 with regional optimization",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
     "health": "node healthcheck.js"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {},
-  "keywords": ["tcp", "proxy"],
+  "keywords": ["tcp", "proxy", "bunny-cdn"],
   "author": "CDN Team",
   "license": "MIT"
 }
