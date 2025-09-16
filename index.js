@@ -2,6 +2,7 @@ const net = require('net');
 const http = require('http');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
+const os = require('os');
 
 // Configuration
 const LISTEN_PORT = process.env.LISTEN_PORT || 443;
