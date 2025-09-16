@@ -1,0 +1,17 @@
+{
+  "name": "tcp-proxy",
+  "version": "1.0.0",
+  "description": "TCP Proxy for regional optimization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "health": "node healthcheck.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "keywords": ["tcp", "proxy", "bunny-cdn"],
+  "author": "CDN Team",
+  "license": "MIT"
+}
